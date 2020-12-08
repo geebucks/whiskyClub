@@ -1,0 +1,113 @@
+* {
+    box-sizing: border-box;
+}
+
+.splash {
+    background-image: url(./images/adam-wilson-6UIonphZA5o-unsplash.jpg);
+    height: 1000px;
+    background-size: cover;
+    margin-bottom: 50px;
+    margin-top: 0px;
+    display: flex;
+    align-items: center;
+}
+
+.welcomeText h1 {
+    font-family: "Jost";
+    font-size: 7rem;
+    font-weight: 600;
+    color: white;
+}
+
+header {
+    background-color: white;
+    height: 75Spx;
+    display: flex;
+    position: fixed;
+    top: 0px;
+    z-index: 10;
+    width: 100%;
+    margin-top: 0px;
+}
+
+
+nav a:link, a:visited {
+    color: black;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: orange;
+}
+
+
+
+.container {
+    display: inline-flex;
+    width: 100%;
+    justify-content: space-around;
+}
+
+nav {
+    width: 100%;
+    margin-top: 0px;
+}
+
+hr {
+    width: 75%;
+    border: 2px solid lightgray;
+    margin-bottom: 50px;
+    margin-top: 15px;
+}
+
+.ask {
+    font-family: Jost;
+    font-size: 2rem;
+    color: rgb(204, 120, 11);
+    margin-top: 10px;
+    margin-left: 50px;
+}
+
+.answer {
+    font-family: Hind;
+    font-size: 1.5rem;
+    color: #707070;
+    margin-top: 5px;
+    margin-left: 50px;
+}
+
+form {
+    font-family: Hind;
+    font-size: 1.5rem;
+    margin-left: 50px;
+    color: #707070;
+}
+
+input {
+    padding: 12px 20px;
+    font-family: Hind;
+    font-size: 1rem;
+}
+
+.quote .container {
+    flex-wrap: wrap;
+}
+
+.gallery {
+    width: 400px;
+    height: auto;
+    margin: 50px 50px;
+}
+
+footer {
+    text-align: center;
+    font-family: Hind;
+    font-color: #707070;
+    font-size: .75rem;
+}
+
+@media only screen and (max-width: 600px) {
+    header h2 {
+        font-size: 1rem;
+    }
+}
